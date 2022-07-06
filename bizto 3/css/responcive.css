@@ -1,0 +1,177 @@
+/* laptop */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px){
+    .left-header img {
+        width: 100%;
+    }
+    .right-header li a {
+        padding: 8px 10px;
+    }
+    span.search-ber {
+        padding-left: 22px;
+    }
+    .section-tittle {
+        padding: 0 35px;
+    }
+    .we-are-creative-wrape {
+        flex-direction: column;
+    }
+    .creative-left-bg {
+        display: none;
+    }
+    .creative-left {
+        width: 100%;
+    }
+    .creative-right {
+        width: 100%;
+    }
+    .what-we-offer .section-tittle, .portfolio-area .section-tittle {
+        padding: 0 80px;
+    }
+    .mb {
+        margin-left: -21px;
+        margin-right: 20px;
+    }
+    .single-fedback {
+        padding: 0px 0px;
+        
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .offcanvas-manu{
+        display: block;
+    }
+    .offcanvas-overylay{
+        display: block;
+    }
+    .header-bar{
+        display: block;
+    }
+    span.search-ber {
+        display: none;
+    }
+    .main-manu li {
+        display: none;
+    }
+    .hero-content h2 {
+        font-size: 22px; 
+    }
+    .hero-content h6 {
+        line-height: 20px;
+        font-size: 17px;
+        margin: 8px 0;
+    }
+    .hero-content p {
+        font-size: 10px;
+        margin-bottom: 22px;
+    }
+    a.main-btn {
+        padding: 10px 22px;
+    }
+    .hero-slider-area {
+        height: 320px;
+    }
+    .section-tittle h2 {
+        font-size: 25px;
+    }
+    .compnay-services {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .compnay-services h6:before, .cta-area .section-tittle h2::before, .our-team-member .section-tittle h2::before, .customer-fidback-area .section-tittle h2::before, .bloge-area .section-tittle h2::before {
+        left: 122px;
+       
+    }
+    .compnay-services h6:after,  .cta-area .section-tittle h2::after, .our-team-member .section-tittle h2::after, .customer-fidback-area .section-tittle h2::after, .bloge-area .section-tittle h2::after {
+        left: 109px;
+       
+    }
+
+    .creative-right-content {
+        padding: 10px;
+    }
+    .company-detalce {
+        padding: 50px 0;
+    }
+    .company-detalce .section-tittle h4 {
+        margin-bottom: 20px;
+    }
+    .counter-part {
+        margin-top: 30px;
+    }
+    .what-we-offer .section-tittle, .portfolio-area .section-tittle {
+        padding: 0 35px;
+    }
+    ul.filter-project li {
+        line-height: 35px;
+    }
+    .portfolio-area .section-tittle {
+        padding: 0;
+    }
+    .portfolio-area {
+        padding: 50px 0;
+    }
+    .portfolio-area .section-tittle h2::after{
+        left: 176px;
+    }
+    .portfolio-area .section-tittle h2::before{
+        left: 178px;
+    }
+    .cta-area .section-tittle {
+        padding: 0 20px;
+    }
+    .cta-area .section-tittle h2 {
+        font-size: 35px;
+    }
+    .our-team-member .section-tittle {
+        padding: 0px 20px;
+    }
+    .single-team-member-item {
+        margin-bottom: 50px;
+    }
+    .our-team-member {
+        padding: 50px 0;
+        padding-bottom: 0;
+    }
+    .bloge-area {
+        padding: 50px 0;
+    }
+    .single-blog-item {
+        margin-bottom: 50px;
+    }
+    .mb {
+         margin-left:0px;
+    }
+    .footer-area {
+        padding: 50px 0;
+    }
+    .footer-logo {
+        margin-bottom: 50px;
+    }
+    .footer-item {
+        margin-bottom: 50px;
+    }
+    .footer-social {
+        text-align: left;
+    }
+    .line::after {
+        top: 27%;
+        margin-left: -38px;
+    }
+    .line::before {
+        top: 24%;  
+    }
+    .cta-area .section-tittle.line::before {
+        top: 30%;
+    }
+    .cta-area .section-tittle.line::after {
+        top: 32%;
+    }
+
+
+}
